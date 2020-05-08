@@ -1,0 +1,71 @@
+#container{
+    width: 439px;
+    height: 468px;
+    margin: auto;
+    margin-top: 120px;
+    padding: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(253, 253, 253);
+}
+#create{
+    margin-left: 90px;
+}
+div{
+    margin: 30px;
+}
+body
+{
+    /* background-color: rgb(73, 131, 248); */
+    background-image: url("back.jpeg");
+}
+
+input
+{
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+#first{
+    width: 140px;
+    height: 30px;
+
+}
+#last{
+    width: 140px;
+    height: 30px;
+}
+#email
+{
+    width: 325px;
+    height: 30px;
+}
+#password
+{
+    width: 325px;
+    height: 30px;
+}
+#confirm
+{
+    width: 325px;
+    height: 30px;
+}
+#already
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:77px;
+}
+#login_here{
+    color: white;
+}
+input[type=submit]
+{
+    font-weight: bold;
+    background-color: #3145ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    font-size: 25px;
+    padding: 10px;
+}

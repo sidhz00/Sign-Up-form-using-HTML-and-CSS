@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="create">Create New Account</h1>
+        <hr>
+        <form action="backend.php">
+            <div>
+                <input type="text" name="myFirstName" placeholder="First Name"
+                    id="first">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="myLastName" placeholder="Last Name" id="last">
+            </div>
+            <div>
+                <input type="email" name="myEmail" placeholder="Email " id="email">
+            </div>
+            <div>
+                <input type="password" name="myPassword" placeholder="Password" id="password">
+            </div>
+            <div>
+                <input type="password" name="myConfirmPassword" placeholder="Confirm Password" id="confirm">
+            </div>
+            <div id="check">
+                <input type="checkbox" name="terms"> I have accept the terms and conditions.
+            </div>
+            <div id="signup">
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+        <span id="already">Already have an account? <a id="login_here" href="#">Login here</a></span>
+    </div>
+</body>
+</html>
